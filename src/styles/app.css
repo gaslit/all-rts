@@ -1,0 +1,30 @@
+@import "./variables.css";
+@import "./utils.css";
+@import "./fonts.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "Gilroy", "Woodford Bourne Pro", "Gilroy Bold", "Cormorant SC",
+    "BigNoodleTitling", "Ethnocentric Rg";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
