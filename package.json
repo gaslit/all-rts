@@ -31,6 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"18": "^0.0.0",
 		"swiper": "^11.1.14"
 	}
 }
