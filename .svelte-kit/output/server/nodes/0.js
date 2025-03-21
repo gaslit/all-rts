@@ -1,0 +1,8 @@
+
+
+export const index = 0;
+let component_cache;
+export const component = async () => component_cache ??= (await import('../entries/pages/_layout.svelte.js')).default;
+export const imports = ["_app/immutable/nodes/0.C55g4BMj.js","_app/immutable/chunks/scheduler.Bv5m19ba.js","_app/immutable/chunks/index.BCIkY5Jh.js","_app/immutable/chunks/SocialsLogos.svelte_svelte_type_style_lang.CiO3ZgUW.js","_app/immutable/chunks/OutlinedButton.D58sp7oW.js","_app/immutable/chunks/entry.BFdNzz7-.js","_app/immutable/chunks/arrow-down-light.DzkHBqs1.js","_app/immutable/chunks/BgGradient.CXeT2LpN.js","_app/immutable/chunks/SmallerDeco.tBEig-02.js"];
+export const stylesheets = ["_app/immutable/assets/0.CUQZVF0A.css","_app/immutable/assets/SocialsLogos.DYZufMXl.css","_app/immutable/assets/OutlinedButton.DUeWGBq4.css","_app/immutable/assets/BgGradient.CBsJRYnC.css","_app/immutable/assets/SmallerDeco.BzhlgI3e.css"];
+export const fonts = ["_app/immutable/assets/Gilroy-Semibold.Cu1_Dviq.woff2","_app/immutable/assets/Gilroy-Semibold.IQ7aD9dp.woff","_app/immutable/assets/Gilroy-Semibold.BP6WYEG3.ttf","_app/immutable/assets/WoodfordBournePro-Black.BT_WMAiA.woff2","_app/immutable/assets/WoodfordBournePro-Black.DOkqiZHW.woff","_app/immutable/assets/WoodfordBournePro-Black.VhQugq_s.ttf","_app/immutable/assets/Gilroy-Bold.Bt_SZrlr.woff2","_app/immutable/assets/Gilroy-Bold.DW_sczTM.woff","_app/immutable/assets/Gilroy-Bold.CWvQ8Q14.ttf","_app/immutable/assets/CormorantSC-Regular.DiP0MJRg.woff2","_app/immutable/assets/CormorantSC-Regular.ZkOMVFUN.woff","_app/immutable/assets/CormorantSC-Regular.CXLlob8v.ttf","_app/immutable/assets/big_noodle_titling.CmfBXbpw.ttf","_app/immutable/assets/ethnocentricrg.D-5qxavR.ttf"];

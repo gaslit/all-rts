@@ -1,0 +1,4 @@
+const leftArrowIcon = "data:image/svg+xml,%3csvg%20width='51'%20height='51'%20viewBox='0%200%2051%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20id='left%20arrow'%3e%3cg%20id='Polygon%203'%20filter='url(%23filter0_f_1149_454)'%3e%3cpath%20d='M6%2025.5L39.75%206.01443L39.75%2044.9856L6%2025.5Z'%20fill='white'/%3e%3c/g%3e%3cpath%20id='Polygon%206'%20d='M6%2025.5L39.75%206.01443L39.75%2044.9856L6%2025.5Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cfilter%20id='filter0_f_1149_454'%20x='0'%20y='0.0144348'%20width='45.75'%20height='50.9711'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='BackgroundImageFix'%20result='shape'/%3e%3cfeGaussianBlur%20stdDeviation='3'%20result='effect1_foregroundBlur_1149_454'/%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e";
+export {
+  leftArrowIcon as l
+};

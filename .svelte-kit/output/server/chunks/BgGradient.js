@@ -1,0 +1,21 @@
+import { c as create_ssr_component, e as escape, b as add_attribute, d as null_to_empty } from "./ssr.js";
+const css = {
+  code: '.banner-container.svelte-my1qf9{position:relative;width:100%;display:flex;justify-content:center;align-items:center;height:auto}.banner-content.svelte-my1qf9{position:relative;width:100%;overflow:hidden}.gradient-overlay.svelte-my1qf9{position:absolute;top:0;left:0;right:0;bottom:0;z-index:1;background:linear-gradient(0deg, #190d0a 0%, rgba(25, 13, 10, 0) 100%)}.top-gradient.svelte-my1qf9::before{content:"";position:absolute;top:0;left:0;right:0;height:200px;background:linear-gradient(180deg, #190d0a 0%, rgba(25, 13, 10, 0) 100%)}img.svelte-my1qf9{display:block;width:100%;z-index:0;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center}',
+  map: `{"version":3,"file":"BgGradient.svelte","sources":["BgGradient.svelte"],"sourcesContent":["<script>\\n  export let src\\n  export let showGradientOnTop = false\\n\\n  let className = \\"\\"\\n  export { className as class }\\n<\/script>\\n\\n<section class=\\"banner-container\\">\\n  <div class=\\"banner-content\\">\\n    <div class=\\"gradient-overlay {showGradientOnTop ? 'top-gradient' : ''}\\">\\n      <slot />\\n    </div>\\n    <img {src} alt=\\"banner\\" class={\`w-full \${className}\`} />\\n  </div>\\n</section>\\n\\n<style>\\n  .banner-container {\\n    position: relative;\\n    width: 100%;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    height: auto;\\n  }\\n\\n  .banner-content {\\n    position: relative;\\n    width: 100%;\\n    overflow: hidden;\\n  }\\n\\n  .gradient-overlay {\\n    position: absolute;\\n    top: 0;\\n    left: 0;\\n    right: 0;\\n    bottom: 0;\\n    z-index: 1;\\n    background: linear-gradient(0deg, #190d0a 0%, rgba(25, 13, 10, 0) 100%);\\n  }\\n\\n  .top-gradient::before {\\n    content: \\"\\";\\n    position: absolute;\\n    top: 0;\\n    left: 0;\\n    right: 0;\\n    height: 200px;\\n    background: linear-gradient(180deg, #190d0a 0%, rgba(25, 13, 10, 0) 100%);\\n  }\\n\\n  img {\\n    display: block;\\n    width: 100%;\\n    z-index: 0;\\n    -o-object-fit: cover;\\n       object-fit: cover;\\n    -o-object-position: center;\\n       object-position: center;\\n  }\\n</style>\\n"],"names":[],"mappings":"AAkBE,+BAAkB,CAChB,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,MAAM,CAAE,IACV,CAEA,6BAAgB,CACd,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,IAAI,CACX,QAAQ,CAAE,MACZ,CAEA,+BAAkB,CAChB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,CAAC,CACR,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,gBAAgB,IAAI,CAAC,CAAC,OAAO,CAAC,EAAE,CAAC,CAAC,KAAK,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CACxE,CAEA,2BAAa,QAAS,CACpB,OAAO,CAAE,EAAE,CACX,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,IAAI,CAAE,CAAC,CACP,KAAK,CAAE,CAAC,CACR,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,gBAAgB,MAAM,CAAC,CAAC,OAAO,CAAC,EAAE,CAAC,CAAC,KAAK,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAC1E,CAEA,iBAAI,CACF,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,CAAC,CACV,aAAa,CAAE,KAAK,CACjB,UAAU,CAAE,KAAK,CACpB,kBAAkB,CAAE,MAAM,CACvB,eAAe,CAAE,MACtB"}`
+};
+const BgGradient = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { src } = $$props;
+  let { showGradientOnTop = false } = $$props;
+  let { class: className = "" } = $$props;
+  if ($$props.src === void 0 && $$bindings.src && src !== void 0)
+    $$bindings.src(src);
+  if ($$props.showGradientOnTop === void 0 && $$bindings.showGradientOnTop && showGradientOnTop !== void 0)
+    $$bindings.showGradientOnTop(showGradientOnTop);
+  if ($$props.class === void 0 && $$bindings.class && className !== void 0)
+    $$bindings.class(className);
+  $$result.css.add(css);
+  return `<section class="banner-container svelte-my1qf9"><div class="banner-content svelte-my1qf9"><div class="${"gradient-overlay " + escape(showGradientOnTop ? "top-gradient" : "", true) + " svelte-my1qf9"}">${slots.default ? slots.default({}) : ``}</div> <img${add_attribute("src", src, 0)} alt="banner" class="${escape(null_to_empty(`w-full ${className}`), true) + " svelte-my1qf9"}"></div> </section>`;
+});
+export {
+  BgGradient as B
+};
