@@ -10,6 +10,9 @@ const config = {
   },
   preprocess: vitePreprocess({
     typescript: true
-  })
+  }),
+  prerender: {
+    default: true,
+  },
 }
 export default config
