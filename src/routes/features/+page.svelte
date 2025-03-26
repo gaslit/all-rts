@@ -151,7 +151,8 @@
     padding: 15px;
     background: #040709;
     color: white;
-    width:100%
+    width:100%;
+    min-height:190px;
   }
 
   .title {
