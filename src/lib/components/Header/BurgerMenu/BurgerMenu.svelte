@@ -25,7 +25,8 @@
   <button class="close-button" on:click={toggleMenu}>&times;</button>
   <ul class="text-white text-2xl space-y-6">
     <BurgerMenuItem text="Play" href="/" onClick={toggleMenu} />
-    <BurgerMenuItem text="News" href="/" onClick={toggleMenu} />
+    <BurgerMenuItem text="News" href="/news" onClick={toggleMenu} />
+    <BurgerMenuItem text="Opportunities" href="/opportunities" onClick={toggleMenu} />
     <BurgerMenuItem text="Download" href="/" onClick={toggleMenu} />
   </ul>
 </div>

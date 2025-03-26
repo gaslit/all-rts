@@ -16,15 +16,81 @@
       <Dropdown />
     </div>
     <div class="col-span-2 max-md:hidden"></div>
-    <FeaturesCard title="FEATURE 1" imageSrc={feature1} />
-    <FeaturesCard title="FEATURE 2" imageSrc={feature2} />
-    <FeaturesCard title="FEATURE 3" imageSrc={feature3} />
-    <FeaturesCard title="FEATURE 1" imageSrc={feature1} />
-    <FeaturesCard title="FEATURE 2" imageSrc={feature2} />
-    <FeaturesCard title="FEATURE 3" imageSrc={feature3} />
-    <FeaturesCard title="FEATURE 1" imageSrc={feature1} />
-    <FeaturesCard title="FEATURE 2" imageSrc={feature2} />
-    <FeaturesCard title="FeEATURE3" imageSrc={feature3} />
+<!--   <FeaturesCard title="Full Real-Time Strategy experience:" description="train units, construct buildings, research upgrades
+"  imageSrc={feature1} />
+    <FeaturesCard title="Full Real-Time Strategy experience:" description="sdsd"  imageSrc={feature2} />
+    <FeaturesCard title="Full Real-Time Strategy experience:" description="sdsd"  imageSrc={feature3} />
+    <FeaturesCard title="Full Real-Time Strategy experience:" description="sdsd"  imageSrc={feature1} /> -->
+    <section class="features-card">
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <div class="image-wrapper">
+    <img src={feature1} alt="image" class="image" />
+  </div>
+  <div class="content">
+    <h2 class="title font-cormorantSC">Full Real-Time Strategy experience:</h2>
+    <p class="description">
+       train units, construct buildings, research upgrades
+    </p>
+  </div>
+</section>
+
+<section class="features-card">
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <div class="image-wrapper">
+    <img src={feature3} alt="image" class="image" />
+  </div>
+  <div class="content">
+    <h2 class="title font-cormorantSC">Reimagined for phone & tablets</h2>
+    <p class="description">
+      designed from the ground up for touch control
+
+    </p>
+  </div>
+</section>
+
+<section class="features-card">
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <div class="image-wrapper">
+    <img src={feature2} alt="image" class="image" />
+  </div>
+  <div class="content">
+    <h2 class="title font-cormorantSC"> Robust Multiplayer:</h2>
+    <p class="description">
+     balanced matchmaking, competitive or cooperative play
+    </p>
+  </div>
+</section>
+
+<section class="features-card">
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <div class="image-wrapper">
+    <img src={feature1} alt="image" class="image" />
+  </div>
+  <div class="content">
+    <h2 class="title font-cormorantSC">Quick 10 min matches:</h2>
+    <p class="description">
+      rush right into epic late game battles
+
+    </p>
+  </div>
+</section>
+
+<section class="features-card">
+  <!-- svelte-ignore a11y-img-redundant-alt -->
+  <div class="image-wrapper">
+    <img src={feature3} alt="image" class="image" />
+  </div>
+  <div class="content">
+    <h2 class="title font-cormorantSC">Free to Play</h2>
+    <p class="description">
+      No Ads, No IAP, No P2W
+     
+    </p>
+  </div>
+</section>
+
+
+
   </div>
   <div class="w-full flex justify-center pt-16 max-md:pt-7"></div>
 </section>
@@ -54,6 +120,100 @@
     .features-grid {
       grid-template-columns: 1fr;
       gap: 1rem;
+    }
+  }
+
+    .features-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    max-width: 420px;
+    transition: transform 0.3s ease;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .content {
+    padding: 15px;
+    background: #040709;
+    color: white;
+  }
+
+  .title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 3.85px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+  }
+
+  /* Hover effect */
+  @media (hover: hover) {
+    .features-card:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  /* Адаптивные стили */
+  @media (max-width: 1200px) {
+    .title {
+      font-size: 1.5rem;
+      letter-spacing: 2.85px;
+    }
+    .description {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .features-card {
+      max-width: 320px;
+    }
+
+    .title {
+      font-size: 1.4rem;
+      letter-spacing: 2.5px;
+    }
+
+    .content {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .features-card {
+      max-width: 260px;
+    }
+
+    .title {
+      font-size: 1.2rem;
+      letter-spacing: 2.5px;
+    }
+
+    .description {
+      font-size: 0.85rem;
     }
   }
 </style>

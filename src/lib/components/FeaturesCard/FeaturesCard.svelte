@@ -1,6 +1,7 @@
 <script>
   export let imageSrc
   export let title
+  export let description
 </script>
 
 <section class="features-card">
@@ -11,9 +12,7 @@
   <div class="content">
     <h2 class="title font-cormorantSC">{title}</h2>
     <p class="description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam.
+      {description}
     </p>
   </div>
 </section>
