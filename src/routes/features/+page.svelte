@@ -82,7 +82,7 @@
   </div>
   <div class="content">
     <h2 class="title font-cormorantSC">Free to Play</h2>
-    <p class="description">
+    <p class="description w-full">
       No Ads, No IAP, No P2W
      
     </p>
@@ -151,6 +151,7 @@
     padding: 15px;
     background: #040709;
     color: white;
+    width:100%
   }
 
   .title {
