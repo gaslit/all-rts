@@ -14,11 +14,12 @@
     <div class="w-full max-w-[700px] min-w-[200px] max-sm:text-center">
       <h2 class="text-white text-lg font-gilroyBold pb-5">All RTS</h2>
       <div class="sm:flex flex-wrap gap-x-24 gap-y-4">
-        <FooterLink text="Home" />
-        <FooterLink text="Features" />
-        <FooterLink text="Mobile Requirements" />
-        <FooterLink text="News" />
-        <FooterLink text="Download" />
+        <FooterLink text="Home" href="/home"/>
+       <FooterLink text="Features"  href="/features" /> 
+        <FooterLink text="Mobile Requirements"  href="/" />
+        <FooterLink text="News"   href="/" />
+    
+        <FooterLink text="Download"  href="/"/>
       </div>
     </div>
 

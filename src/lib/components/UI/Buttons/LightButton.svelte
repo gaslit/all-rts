@@ -1,11 +1,12 @@
 <script lang="ts">
+export let href
   export let text: string
   let className = ""
   export { className as class }
 </script>
 
 <section>
-  <button
+  <a href={href}
     class={`relative green-btn text-transparent font-bold py-6 px-8 overflow-hidden max-sm:py-4 max-sm:px-6 ${className}`}
   >
     <span
@@ -13,7 +14,7 @@
       style="text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(11, 160, 113, 0.6);"
       >{text}</span
     >
-  </button>
+  </a>
 </section>
 
 <style>

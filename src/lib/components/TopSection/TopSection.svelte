@@ -28,7 +28,7 @@ AllRTS is our passion project—a completely free, fan-made tribute to the class
 Will you join us on the battlefield?
 
     </p>
-    <LightButton text="Play Now" class="mt-16 max-md:mt-5" />
+    <LightButton href="https://g.autumninteractive.com/rts-online/" text="Play Now" class="mt-16 max-md:mt-5 cursor-pointer" />
     <TrailerPlaceholder />
   </div>
 </section>

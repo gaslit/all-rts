@@ -58,8 +58,12 @@
   {#if activeMenu === menuId}
     <HeaderDropdown>
       <HeaderDropdownItem text="Play on browser" />
-      <HeaderDropdownItem text="Download" />
-      <HeaderDropdownItem text="Extra button space" />
+      <HeaderDropdownItem text="Download"/>
+   <!-- <HeaderDropdownItem text="Extra button space" />
+      <HeaderDropdownItem text="Features" />
+      <HeaderDropdownItem text="Mobile Requirements" /> -->
+      <a href="/features" class="block px-4 py-4 hover:text-opacity-75 hover:bg-gray-500">Features</a>
+      <a href="/" class="block px-4 py-4 hover:text-opacity-75 hover:bg-gray-500">Mobile Requirements</a>
     </HeaderDropdown>
   {/if}
 </div>

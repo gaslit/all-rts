@@ -5,6 +5,7 @@
   import feature1 from "../../assets/images/feature1.png"
   import feature2 from "../../assets/images/feature2.png"
   import feature3 from "../../assets/images/feature3.png"
+  import feature4 from "../../assets/images/feature4.png"
 </script>
 
 <section class="bg-background-primary">
@@ -51,7 +52,7 @@
 <section class="features-card">
   <!-- svelte-ignore a11y-img-redundant-alt -->
   <div class="image-wrapper">
-    <img src={feature2} alt="image" class="image" />
+    <img src={feature4} alt="image" class="image" />
   </div>
   <div class="content">
     <h2 class="title font-cormorantSC"> Robust Multiplayer:</h2>
