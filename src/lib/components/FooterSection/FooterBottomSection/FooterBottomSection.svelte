@@ -18,12 +18,12 @@
           <FooterLink text="About" class="text-lg" />
         </div>
         <ul class="space-y-2">
-          <FooterLink text="Legal & Privacy" class="text-sm" />
+        <!--  <FooterLink text="Legal & Privacy" class="text-sm" /> -->
           <FooterLink
-            text="Privacy & Cookie Policy (Your Privacy Rights)"
+            text="Privacy & Cookie Policy"
             class="text-sm"
           />
-          <FooterLink text="Cookie Preferences" class="text-sm" />
+        <!--  <FooterLink text="Cookie Preferences" class="text-sm" /> -->
         </ul>
       </div>
 
@@ -33,7 +33,21 @@
           <FooterLink text="Support" class="text-lg" />
         </div>
         <ul class="space-y-2">
-          <FooterLink text="User Agreement" class="text-sm" />
+         <a class="link hover:text-opacity-75 text-sm text-[#9e9e9e]"
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/251023432733446',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+       Contact Us
+    </a>
+
         </ul>
       </div>
     </div>

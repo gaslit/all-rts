@@ -13,7 +13,7 @@
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
   <a href="/"><img src={DiscordLogo} alt="Discord" class="w-8 md:w-14" /></a>
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
-  <a href="/"><img src={YoutubeLogo} alt="Youtube" class="w-8 md:w-14" /></a>
+  <a target="_blank" href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ" ><img src={YoutubeLogo} alt="Youtube" class="w-8 md:w-14" /></a>
 </section>
 
 <style>

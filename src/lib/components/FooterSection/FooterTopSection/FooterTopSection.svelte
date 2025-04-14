@@ -16,7 +16,7 @@
       <div class="sm:flex flex-wrap gap-x-24 gap-y-4">
         <FooterLink text="Home" href="/home"/>
        <FooterLink text="Features"  href="/features" /> 
-        <FooterLink text="Mobile Requirements"  href="/" />
+       <!-- <FooterLink text="Mobile Requirements"  href="/" /> -->
         <FooterLink text="News"   href="/" />
     
         <FooterLink text="Download"  href="/"/>
@@ -32,7 +32,7 @@
           <a href="https://sh.reddit.com/user/allrts/"><img src={RedditLogo} alt="Reddit" class="w-6" /></a>
           <a href="/"><img src={FacebookLogo} alt="Facebook" class="w-6" /></a>
           <a href="/allrts"><img src={DiscordLogo} alt="Discord" class="w-6" /></a>
-          <a href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ"><img src={YoutubeLogo} alt="YouTube" class="w-6" /></a>
+          <a target="_blank" href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ"><img src={YoutubeLogo} alt="YouTube" class="w-6" /></a>
         </div>
       </div>
     </div>
