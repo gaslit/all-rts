@@ -82,7 +82,7 @@
     <img src={feature3} alt="image" class="image" />
   </div>
   <div class="content">
-    <h2 class="title font-cormorantSC">Free to Play</h2>
+    <h2 class="title font-cormorantSC">Free to Play: No Ads, No IAP, No P2W</h2>
     <p class="description w-full">
       No Ads, No IAP, No P2W
      

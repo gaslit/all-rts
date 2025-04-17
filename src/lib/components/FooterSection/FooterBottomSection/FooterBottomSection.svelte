@@ -19,10 +19,14 @@
         </div>
         <ul class="space-y-2">
         <!--  <FooterLink text="Legal & Privacy" class="text-sm" /> -->
-          <FooterLink
+       <!--   <FooterLink
             text="Privacy & Cookie Policy"
             class="text-sm"
-          />
+          /> -->
+                   <a  href="/privacy-policy" class="link hover:text-opacity-75 text-sm text-[#9e9e9e]"
+     >
+      Privacy & Cookie Policy
+    </a>
         <!--  <FooterLink text="Cookie Preferences" class="text-sm" /> -->
         </ul>
       </div>

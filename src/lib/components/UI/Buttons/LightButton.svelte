@@ -6,7 +6,7 @@ export let href
 </script>
 
 <section>
-  <a href={href}
+  <a href={href}  target="_blank"
     class={`relative green-btn text-transparent font-bold py-6 px-8 overflow-hidden max-sm:py-4 max-sm:px-6 ${className}`}
   >
     <span
