@@ -31,7 +31,7 @@
         <div class="grid grid-cols-2 gap-x-8 gap-y-6">
           <a href="https://sh.reddit.com/user/allrts/"><img src={RedditLogo} alt="Reddit" class="w-6" /></a>
           <a href="/"><img src={FacebookLogo} alt="Facebook" class="w-6" /></a>
-          <a href="/allrts"><img src={DiscordLogo} alt="Discord" class="w-6" /></a>
+          <a href="https://discord.com/channels/1349664584025247834/1349664584025247836"><img src={DiscordLogo} alt="Discord" class="w-6" /></a>
           <a target="_blank" href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ"><img src={YoutubeLogo} alt="YouTube" class="w-6" /></a>
         </div>
       </div>

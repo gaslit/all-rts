@@ -3,9 +3,10 @@
   import FeaturesTopSection from "$lib/components/FeaturesTopSection/FeaturesTopSection.svelte"
   import Dropdown from "$lib/components/UI/Dropdown/Dropdown.svelte"
   import feature1 from "../../assets/images/feature1.png"
-  import feature2 from "../../assets/images/feature2.png"
+  import feature2 from "../../assets/images/image22.png"
   import feature3 from "../../assets/images/feature3.png"
   import feature4 from "../../assets/images/feature4.png"
+  import feature5 from "../../assets/images/image29.png"
 </script>
 
 <section class="bg-background-primary">
@@ -25,7 +26,7 @@
     <section class="features-card">
   <!-- svelte-ignore a11y-img-redundant-alt -->
   <div class="image-wrapper">
-    <img src={feature1} alt="image" class="image" />
+    <img src={feature2} alt="image" class="image" />
   </div>
   <div class="content">
     <h2 class="title font-cormorantSC">Full Real-Time Strategy experience:</h2>
@@ -79,7 +80,7 @@
 <section class="features-card">
   <!-- svelte-ignore a11y-img-redundant-alt -->
   <div class="image-wrapper">
-    <img src={feature3} alt="image" class="image" />
+    <img src={feature5} alt="image" class="image" />
   </div>
   <div class="content">
     <h2 class="title font-cormorantSC">Free to Play: No Ads, No IAP, No P2W</h2>
