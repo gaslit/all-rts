@@ -11,7 +11,7 @@
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
   <a href="https://sh.reddit.com/user/allrts/"><img src={RedditLogo} alt="RedditLogo" class="w-8 md:w-14" /></a>
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
-  <a href="https://discord.com/channels/1349664584025247834/1349664584025247836"><img src={DiscordLogo} alt="Discord" class="w-8 md:w-14" /></a>
+  <a href="https://discord.gg/JBxPK375"><img src={DiscordLogo} alt="Discord" class="w-8 md:w-14" /></a>
   <div class="h-12 md:h-20 w-[2px] md:w-[3px] bg-gray-400 divider"></div>
   <a target="_blank" href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ" ><img src={YoutubeLogo} alt="Youtube" class="w-8 md:w-14" /></a>
 </section>
