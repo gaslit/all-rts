@@ -24,17 +24,6 @@
     </div>
 
     <!-- Right Side (Social Media) -->
-    <div class="w-full max-w-[80px] pb-8 md:flex md:justify-center">
-      <!-- Flex для md-->
-      <div class="text-center">
-        <h2 class="text-white text-lg font-gilroyBold pt-8 pb-5">COMMUNITY</h2>
-        <div class="grid grid-cols-2 gap-x-8 gap-y-6">
-          <a href="https://sh.reddit.com/user/allrts/"><img src={RedditLogo} alt="Reddit" class="w-6" /></a>
-          <a href="/"><img src={FacebookLogo} alt="Facebook" class="w-6" /></a>
-          <a href="https://discord.gg/JBxPK375"><img src={DiscordLogo} alt="Discord" class="w-6" /></a>
-          <a target="_blank" href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ"><img src={YoutubeLogo} alt="YouTube" class="w-6" /></a>
-        </div>
-      </div>
-    </div>
+
   </div>
 </section>

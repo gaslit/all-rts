@@ -1,6 +1,11 @@
 <script>
   import logo from "../../../../assets/images/logo.png"
+
   import FooterLink from "../FooterLink/FooterLink.svelte"
+  import RedditLogo from "../../../../assets/icons/footerIcons/Reddit.svg"
+  import FacebookLogo from "../../../../assets/icons/footerIcons/Facebook.svg"
+  import DiscordLogo from "../../../../assets/icons/footerIcons/discord.svg"
+  import YoutubeLogo from "../../../../assets/icons/footerIcons/youtube.svg"
 </script>
 
 <section class="bg-background-primary py-10">
@@ -55,11 +60,28 @@
         </ul>
       </div>
     </div>
-
+<div class="">
     <div
-      class="text-[#9e9e9e] md:flex items-center text-sm px-4 max-md:text-center max-md:pt-7"
+      class="text-[#9e9e9e] md:flex items-center text-sm px-4 max-md:text-center max-md:pt-7 pb-7"
     >
       © 2024 Autumn ( name here )
     </div>
+ 
+  <div class="pb-8 flex justify-center">
+    <div class="text-center">
+      <div class="flex justify-center gap-6 md:gap-12 items-center">
+        <a href="https://sh.reddit.com/user/allrts/" target="_blank">
+          <img src={RedditLogo} alt="Reddit" class="w-6 " />
+        </a>
+        <a href="https://discord.gg/JBxPK375" target="_blank">
+          <img src={DiscordLogo} alt="Discord" class="w-6 " />
+        </a>
+        <a href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ" target="_blank">
+          <img src={YoutubeLogo} alt="YouTube" class="w-6 n" />
+        </a>
+      </div>
+    </div>
+  </div> </div>
+
   </div>
 </section>
