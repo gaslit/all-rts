@@ -41,7 +41,7 @@
         <div class="pb-7">
           <FooterLink text="Support" class="text-lg" />
         </div>
-        <ul class="space-y-2">
+        <ul class="space-y-2 flex flex-col">
          <a class="link hover:text-opacity-75 text-sm text-[#9e9e9e]"
       href="javascript:void(
         window.open(
@@ -56,9 +56,13 @@
     ">
        Contact Us
     </a>
-
+   <a  href="/faq" class="link hover:text-opacity-75 text-sm text-[#9e9e9e]"
+     >
+     FAQ
+    </a>
         </ul>
       </div>
+      
     </div>
 <div class="">
     <div
