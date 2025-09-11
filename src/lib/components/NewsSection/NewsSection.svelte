@@ -8,7 +8,7 @@
   import newsImage1 from "../../../assets/images/newsimage1.png"
   import newsImage2 from "../../../assets/images/newsimage2.png"
   import newsImage3 from "../../../assets/images/newsimage3.png"
-  import logo from "../../../assets/images/logo.png"
+  import logo from "../../../assets/images/logo(website).png"
   import OutlinedButton from "../UI/Buttons/OutlinedButton.svelte"
 </script>
 

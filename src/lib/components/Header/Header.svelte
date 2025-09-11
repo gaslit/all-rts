@@ -1,6 +1,6 @@
 <script>
   import HeaderNavBar from "$lib/components/Header/HeaderNavBar/HeaderNavBar.svelte"
-  import logo from "../../../assets/images/logo.png"
+  import logo from "../../../assets/images/logo(website).png"
   import OutlinedButton from "../UI/Buttons/OutlinedButton.svelte"
   import BurgerMenu from "./BurgerMenu/BurgerMenu.svelte"
   import HeaderDropdown from "./HeaderDropdown/HeaderDropdown.svelte"
