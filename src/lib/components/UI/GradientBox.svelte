@@ -7,6 +7,7 @@
   <div class="banner-content" class:gradient={showGradientOnTop}>
     <img {src} alt="banner" class="w-full" />
   </div>
+
 </section>
 
 <style>
