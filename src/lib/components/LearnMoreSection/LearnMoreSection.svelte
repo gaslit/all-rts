@@ -7,12 +7,12 @@
     <h1
       class="text-white text-8xl font-cormorantSC max-lg:text-5xl max-sm:text-4xl max-xs:text-3xl"
     >
-      Lorem ipsum
+      Discover the Core Features
     </h1>
     <h2
       class="text-white text-center text-xl pt-8 max-lg:text-lg max-md:text-sm"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Explore what makes the game tick—from its unique design philosophy to the experience that keeps players coming back for more.
     </h2>
     <OutlinedButton
       href="/features"

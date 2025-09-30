@@ -13,19 +13,15 @@
       <h1
         class="font-cormorantSC text-white w-[300px] text-xl md:text-3xl lg:text-5xl lg:w-[500px]"
       >
-        Lorem ipsum dolo sit amet, consectetur adipiscing
+      A streamlined, modern take on real-time strategy—built from the ground up for mobile
       </h1>
       <br />
       <p class="text-white lg:text-xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam.
+       Dive into fast-paced, competitive battles with intuitive controls, smart pacing, and a focus on fair, skill-based gameplay.
       </p>
       <br />
       <p class="text-white lg:text-xl">
-        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-        fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-        sequi nesciunt.
+     Outsmart opponents in real time, climb the ranks, and prove your dominance in a battlefield where strategy, speed, and precision decide it all.
       </p>
     </div>
   </div>

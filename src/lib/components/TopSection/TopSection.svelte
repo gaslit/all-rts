@@ -15,7 +15,7 @@
   >
   <h1 class="flex text-white font-cormorantSC font-bold text-2xl md:text-3xl pt-44 pb-2 xl:text-6xl xl:"> </h1>
 
-   <h1  class="flex font-bold text-white font-cormorantSC text-2xl md:text-3xl xl:text-4xl pb-8 lg:pb-20">Classic RTS for Mobile</h1>
+   <h1  class="flex font-bold text-white font-cormorantSC text-2xl md:text-3xl xl:text-4xl pb-8 lg:pb-16">Classic RTS for Mobile</h1>
     <p class=" text-white text-xs lg:text-xl lg:pb-10 px-8 lg:px-28 lg:w-2/3 text-center lg:mx-auto mb-[4rem]">
 
     <span class="text-2xl mb-4">Welcome back, commander! </span>
