@@ -11,7 +11,7 @@
 >
   <GradientBox src={banner} />
   <div
-    class="relative -top-60  max-lg:-top-[8rem] max-sm:-top-10 left-0 right-0 flex justify-center items-center flex-col z-10"
+    class="relative -top-40  max-lg:-top-[8rem] max-sm:-top-10 left-0 right-0 flex justify-center items-center flex-col z-10"
   >
   <h1 class="flex text-white font-cormorantSC font-bold text-2xl md:text-3xl pt-44 pb-2 xl:text-6xl xl:"> </h1>
 

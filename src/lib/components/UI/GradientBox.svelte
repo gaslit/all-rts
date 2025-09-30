@@ -41,7 +41,7 @@
     );
   }
 
-  .banner-content::after {
+/*  .banner-content::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -50,8 +50,8 @@
     height: 100px;
     width: 100%;
     z-index: 1;
-    background: linear-gradient(180deg, rgba(25, 13, 10, 0) 0%, #190d0a 39.32%);
-  }
+    background: linear-gradient(180deg, rgba(25, 13, 10, 0) 0%, #190d0a 39.32%); 
+  } */
 
   @media (max-width: 768px) {
     .banner-content::after {

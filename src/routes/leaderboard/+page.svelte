@@ -10,6 +10,8 @@
   import right from "../../assets/images/right.png"
   import prev from "../../assets/images/prev.png"
   import back from "../../assets/images/back.png"
+  import deco1 from "../../assets/icons/decoration.svg"
+  import deco2 from "../../assets/icons/decoration2.svg"
   // Filter states
   let selectedRegion = 'Global'
   let selectedGameMode = 'Random Map'
@@ -74,8 +76,10 @@
     class="h-auto min-h-[650px] xs:min-h-[400px] md:min-h-[310px] lg:min-h-[1000px] xl:min-h-[1470px] 2xl:min-h-[1600px]"
   >
 <div class="w-full flex justify-center pt-28 max-xl:py-20 max-lg:py-10">
-  <div class="decorated-header w-full max-w-4xl mx-auto">
-    <h1 class="title font-cormorantSC">LEADERBOARD</h1>
+  <div class="w-full max-w-4xl mx-auto flex items-center justify-center ">
+    <img src="{deco1}" alt="">
+    <h1 class="title font-cormorantSC px-4">LEADERBOARD</h1>
+     <img src="{deco2}" alt="">
   </div>
 </div>
     
@@ -229,7 +233,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../assets/icons/deco2.svg);
+    background-image: url(../../assets/icons/decor.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
