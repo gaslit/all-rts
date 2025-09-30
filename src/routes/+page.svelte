@@ -9,5 +9,5 @@
 <section>
   <TopSection />
   <LearnMoreSection />
-  <NewsSection />
+  <!-- <NewsSection /> -->
 </section>
