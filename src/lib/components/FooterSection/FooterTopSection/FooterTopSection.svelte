@@ -17,7 +17,7 @@
         <FooterLink text="Home" href="/home"/>
        <FooterLink text="Features"  href="/features" /> 
        <!-- <FooterLink text="Mobile Requirements"  href="/" /> -->
-        <FooterLink text="News"   href="/" />
+        <!-- <FooterLink text="News"   href="/" /> -->
     
         <FooterLink text="Download"  href="/"/>
       </div>

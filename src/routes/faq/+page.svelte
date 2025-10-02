@@ -1,6 +1,6 @@
 <script>
-  import NewsCard from "$lib/components/NewsSection/NewsCard/NewsCard.svelte"
-  import NewsSection from "$lib/components/NewsSection/NewsSection.svelte"
+  // import NewsCard from "$lib/components/NewsSection/NewsCard/NewsCard.svelte"
+  // import NewsSection from "$lib/components/NewsSection/NewsSection.svelte"
   import SwiperNavigation from "$lib/components/SwiperSection/SwiperNavigation/SwiperNavigation.svelte"
   import SwiperPagination from "$lib/components/SwiperSection/SwiperPagination/SwiperPagination.svelte"
   import SwiperSection from "$lib/components/SwiperSection/SwiperSection.svelte"
@@ -35,12 +35,12 @@
           </span>
         </summary>
         <p class="mt-2 text-white">
-          ALL RTS is a reimagined blend of Age of Empires, StarCraft, and Red Alert—
+          Classic real time strategy —
           combining the best elements of each into one epic real-time strategy (RTS) experience.
         </p>
       </details>
 
-      <details class="group border border-gray-200 rounded-xl p-4 bg-white/5">
+      <!-- <details class="group border border-gray-200 rounded-xl p-4 bg-white/5">
         <summary class="flex justify-between items-center cursor-pointer font-semibold text-lg text-white">
           Which factions or civilizations are available?
            <span class="ml-4 text-white">
@@ -60,7 +60,7 @@
           </span>
         </summary>
         <p class="mt-2 text-gray-300">-</p>
-      </details>
+      </details> -->
 
       <details class="group border border-gray-200 rounded-xl p-4 bg-white/5">
         <summary class="flex justify-between items-center cursor-pointer font-semibold text-lg text-white">
@@ -97,7 +97,7 @@
             <span class="hidden group-open:inline">-</span>
           </span>
         </summary>
-        <p class="mt-2 text-gray-300">-</p>
+        <p class="mt-2 text-gray-300">We support mobile platforms: Android / iOS, and the following browsers: Chrome & Safari</p>
       </details>
 
       <details class="group border border-gray-200 rounded-xl p-4 bg-white/5">

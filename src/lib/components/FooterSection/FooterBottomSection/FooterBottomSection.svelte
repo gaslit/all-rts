@@ -6,6 +6,8 @@
   import FacebookLogo from "../../../../assets/icons/footerIcons/Facebook.svg"
   import DiscordLogo from "../../../../assets/icons/footerIcons/discord.svg"
   import YoutubeLogo from "../../../../assets/icons/footerIcons/youtube.svg"
+  import Tiktok from "../../../../assets/icons/footerIcons/tik-tok(1).png"
+  
 </script>
 
 <section class="bg-background-primary py-10">
@@ -82,6 +84,9 @@
         </a>
         <a href="https://www.youtube.com/channel/UCRBili6TrgGvuxGWcHOxvrQ" target="_blank">
           <img src={YoutubeLogo} alt="YouTube" class="w-6 n" />
+        </a>
+        <a href="https://www.tiktok.com/@all_rts?_t=ZS-8zwaF0C0vNI&_r=1" target="_blank">
+          <img src={Tiktok} alt="YouTube" class="w-6 n" />
         </a>
       </div>
     </div>
