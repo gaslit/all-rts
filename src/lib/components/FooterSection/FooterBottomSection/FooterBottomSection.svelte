@@ -77,7 +77,7 @@
     <div class="text-center">
       <div class="flex justify-center gap-6 md:gap-12 items-center">
         <a href="https://sh.reddit.com/user/allrts/" target="_blank">
-          <img src={RedditLogo} alt="Reddit" class="w-6 " />
+          <img src={RedditLogo} alt="Reddit" class="w-6" />
         </a>
         <a href="https://discord.gg/JBxPK375" target="_blank">
           <img src={DiscordLogo} alt="Discord" class="w-6 " />
